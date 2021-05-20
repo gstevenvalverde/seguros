@@ -58,10 +58,10 @@
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class=""></i>Inicio</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="index.html">Constactos</a>
                                 </li>
                                 <li>
                                     <a href="index2.html">Dashboard 2</a>
@@ -74,9 +74,10 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li>
                             <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-chart-bar"></i>Prospectos</a>
                         </li>
                         <li>
                             <a href="table.html">
@@ -88,7 +89,7 @@
                         </li>
                         <li>
                             <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
+                                <i class="fas fa-calendar-alt"></i>Calendario</a>
                         </li>
                         <li>
                             <a href="map.html">
@@ -165,27 +166,105 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
+                            <a href="chart.html">
+                                <i class="fas fa-tachometer-alt"></i>Inicio</a>
+
+                        </li>
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class="fas fa-users"></i>Usuarios</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="index.html">Registrar</a>
                                 </li>
+
                                 <li>
-                                    <a href="index2.html">Dashboard 2</a>
+                                    <a href="index.html">Registrados</a>
                                 </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
+
                             </ul>
                         </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+
                         </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-user"></i>Prospectos</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <!-- Este enlace redireccioanará a la lista prospectos -->
+                                    <a href="index.html">Contactos</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="chart.html">
+                                <i class="fas fa-truck"></i>Asegurados</a>
+
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-file-text"></i>Polizas</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <!-- Este enlace redireccioanará a rellenar nueva poliza -->
+                                    <a href="#">Registrar nueva</a>
+                                </li>
+                                <li>
+                                    <!-- Este enlace redireccioanará a la lista polizas -->
+                                    <a href="#">Registradas</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-suitcase"></i>Politicas</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Planes</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Nuevo Plan</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Coberturas</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Nueva Cobertura</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-wrench"></i>Servicios</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Nuevo taller</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Talleres</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <!--
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Inicio</a>
+                        </li>
+
                         <li>
                             <a href="table.html">
                                 <i class="fas fa-table"></i>Tables</a>
@@ -196,7 +275,7 @@
                         </li>
                         <li>
                             <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
+                                <i class="fas fa-calendar-alt"></i>Calendario</a>
                         </li>
                         <li>
                             <a href="map.html">
@@ -252,11 +331,13 @@
                                     <a href="fontawesome.html">Fontawesome Icon</a>
                                 </li>
                                 <li>
-                                    <a href="typo.html">Typography</a>
+                                    <a href="typo.html">Tipo de letra</a>
                                 </li>
                             </ul>
                         </li>
+                        -->
                     </ul>
+
                 </nav>
             </div>
         </aside>
@@ -269,20 +350,22 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
+                            <!-- -->
                             <form class="form-header" action="" method="POST">
                                 <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
-                            </form>
+                            </form>  <!-- -->
                             <div class="header-button">
+                                <!-- -->
                                 <div class="noti-wrap">
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
                                         <span class="quantity">1</span>
                                         <div class="mess-dropdown js-dropdown">
                                             <div class="mess__title">
-                                                <p>You have 2 news message</p>
+                                                <p>You have 2 news mensajes</p>
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
@@ -347,7 +430,8 @@
                                                 <a href="#">See all emails</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>  <!-- -->
+
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-notifications"></i>
                                         <span class="quantity">3</span>
@@ -442,16 +526,17 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
+                        <!--
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="overview-wrap">
-                                    <h2 class="title-1">overview</h2>
+                                    <h2 class="title-1">Retroalimentación</h2>
                                     <button class="au-btn au-btn-icon au-btn--blue">
-                                        <i class="zmdi zmdi-plus"></i>add item</button>
+                                        <i class="zmdi zmdi-plus"></i>Nueva poliza</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row m-t-25">
+                        </div> -->
+                        <!-- <div class="row m-t-25">
                             <div class="col-sm-6 col-lg-3">
                                 <div class="overview-item overview-item--c1">
                                     <div class="overview__inner">
@@ -525,6 +610,7 @@
                                 </div>
                             </div>
                         </div>
+                        <br/>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="au-card recent-report">
@@ -586,7 +672,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
+                        <!--
                         <div class="row">
                             <div class="col-lg-9">
                                 <h2 class="title-1 m-b-25">Earnings By Items</h2>
@@ -975,7 +1063,7 @@
                                     <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
